@@ -110,6 +110,11 @@ main h1 {
     font-family:;
 }
 
+main p {
+    margin: 25px;
+    text-align: justify;
+}
+
 main img {
     border-radius: 15px;
     width: 90%;
