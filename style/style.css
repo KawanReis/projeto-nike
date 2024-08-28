@@ -73,9 +73,9 @@ nav > a:hover {
     transition-duration: 0.5s;
 }
 
-nav > div.produto {
-    
+div h1 {
     background-color: white;
+
 }
 
 div a {
@@ -92,9 +92,10 @@ div a {
 
 div > a:hover {
     background-color: black;
+    padding: 10px;
     border: 1px solid rgb(255, 255, 255);
     color: white;
-    
+    transition-duration: 0.5s;
 }
 
 body {
@@ -110,12 +111,20 @@ main h1 {
     font-family:;
 }
 
+main h2 div {
+    color: black;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
 main p {
-    margin: 25px;
+    margin: 30px;
     text-align: justify;
 }
 
 main img {
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
     width: 90%;
 }
