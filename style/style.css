@@ -10,6 +10,7 @@
 :root {
     --cor1: #000000;
     --cor2: #ffffff;
+    --cor3: rgb(209, 209, 209);
 }
 
 * {
@@ -19,18 +20,17 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
 header {
-    background-color: var(--cor1);
+    background: linear-gradient(to bottom, black 0%, black 96%, white 100%);
     text-align: center;
     color: var(--cor2);
 }
 
-
 header h1 {
-
     font-size: 3em;
     padding-top: 20px;
 }
@@ -55,7 +55,7 @@ header > nav {
     border-radius: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 
@@ -97,25 +97,30 @@ div a {
 
 div > a:hover {
     background-color: var(--cor1);
-    padding: 19px;
+    padding: 20px;
     border: 1px solid var(--cor2);
     color: var(--cor2);
     transition-duration: 0.5s;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--cor2);
     border-radius: 20px;
 }
 
 main {
     background-color: var(--cor2);
+    text-align: center;
     color: var(--cor1);
     max-width: 1200px;
     min-width: 300px;
     margin: auto;
     box-shadow: 0px 20px 10px;
   
+}
+
+main h1 {
+    margin-top: 15px;
 }
 
 main h2 {
