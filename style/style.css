@@ -25,7 +25,7 @@ body {
 
 
 header {
-    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 97%, white 100%);
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 98%, white 100%);
     text-align: center;
     color: var(--cor2);
 }
