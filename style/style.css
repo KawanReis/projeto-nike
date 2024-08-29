@@ -8,7 +8,7 @@
 }
 
 :root {
-    --cor1: rgb(0, 0, 0);
+    --cor1: #000000;
     --cor2: #ffffff;
 }
 
@@ -23,18 +23,20 @@ body {
 
 
 header {
-    color: var(--cor1);
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     text-align: center;
+    color: var(--cor2);
 }
 
 
 header h1 {
+
     font-size: 3em;
     padding-top: 20px;
 }
 
 header > p {
+
     padding-bottom: 20px;
     font-size: 1.2em;
 }
@@ -108,6 +110,7 @@ body {
 
 main {
     background-color: var(--cor2);
+    color: var(--cor1);
     max-width: 1200px;
     min-width: 300px;
     margin: auto;
