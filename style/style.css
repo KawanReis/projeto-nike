@@ -23,12 +23,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav {
-    text-decoration: none;
-    display: inline-block;
-    width: 90%;
-    margin: 10px;
-}
 
 header {
     color: white;
@@ -47,8 +41,16 @@ header > p {
     font-size: 1.2em;
 }
 
+nav {
+    text-decoration: none;
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+}
+
 header > nav {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
     border-radius: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
